@@ -8,7 +8,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ChartsModule } from 'ng2-charts/ng2-charts'
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 
 @NgModule({
   declarations: [
@@ -20,13 +20,13 @@ import { ChartsModule } from 'ng2-charts/ng2-charts'
     AppRoutingModule,
     FormsModule,
     MatNativeDateModule,
-    MatPaginatorModule, 
-    MatSortModule, 
+    MatPaginatorModule,
+    MatSortModule,
     MatTableModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
-    ChartsModule 
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

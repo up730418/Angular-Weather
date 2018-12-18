@@ -17,8 +17,8 @@ describe('AppComponent', () => {
         HttpClientModule,
         FormsModule,
         MatNativeDateModule,
-        MatPaginatorModule, 
-        MatSortModule, 
+        MatPaginatorModule,
+        MatSortModule,
         MatTableModule,
         BrowserAnimationsModule,
         MatInputModule,
@@ -48,12 +48,12 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to Angular-Weather!');
   });
-  
+
   it('Should render citys card', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('#regionalData')).toBeTruthy();
   });
-  
+
 });
